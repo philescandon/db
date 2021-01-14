@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: db
-      url: core.html
+      url: db.html
     output: web
     title: db
   output: web

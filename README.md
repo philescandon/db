@@ -1,4 +1,4 @@
-# Project name here
+# db
 > Functions for the dual band cameras
 
 
@@ -21,4 +21,24 @@ sayHello('Phil')
 
     'Hello Phil'
 
+
+
+```python
+f = getFieldNames('PitchT3.log')
+```
+
+
+    ---------------------------------------------------------------------------
+    NameError                                 Traceback (most recent call last)
+
+    In  [35]:
+    Line 1:     f = getFieldNames('PitchT3.log')
+    
+
+    File .\db\core.py, in getFieldNames:
+    Line 45:    
+    
+
+    NameError: name 'regex' is not defined
+    ---------------------------------------------------------------------------
 

@@ -2,11 +2,12 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"sayHello": "00_core.ipynb",
-         "dataset": "00_core.ipynb",
-         "getFieldNames": "00_core.ipynb"}
+index = {"sayHello": "00_db.ipynb",
+         "getFieldNames": "00_db.ipynb",
+         "dataset": "00_db.ipynb",
+         "add2": "00_db.ipynb"}
 
-modules = ["core.py"]
+modules = ["db.py"]
 
 doc_url = "https://philescandon.github.io/db/"
 
